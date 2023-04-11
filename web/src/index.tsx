@@ -15,6 +15,7 @@ root.render(
       <Home />      
     </section>
     <br /><br />
+    <br /><br />
     <section>
       <Colegio />      
     </section>
