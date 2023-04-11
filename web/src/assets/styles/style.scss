@@ -38,6 +38,36 @@ nav ul  {
     margin-top: -47px;
 }
 
+.titleColor {
+    color: #006295;
+}
+
+.ellipse1 {
+    width: 315px;
+    height: 300px;
+    margin-left: 363px;    margin-bottom: -68px;
+    border-radius: 80%;
+    background-color: #1B6E99;
+}
+
+
+.ellipse2 {
+    width: 315px;
+    height: 300px;
+    margin-left: 39px;
+    margin-bottom: -68px;
+    border-radius: 80%;
+    background-color: #1B6E99;
+}
+
+.ellipse3{
+    width: 315px;
+    height: 300px;
+    margin-left: 363px;
+    border-radius: 80%;
+    background-color: #1B6E99;
+}
+
 @media (min-width: 992px) { 
     .cardValues {
         margin-top: -11vh !important;
