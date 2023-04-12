@@ -9,7 +9,7 @@ function TitleBlue({ children }: Props) {
   return (
     <div>
         <p className="text-center text-uppercase fs-1 fw-bold titleColorBlue">
-            {children}
+          {children}
         </p>
     </div>
   );
