@@ -5,14 +5,14 @@ interface Props {
     children?: React.ReactNode;
 }
 
-function Title({ children }: Props) {
+function TitleBlue({ children }: Props) {
   return (
     <div>
-        <p className="text-center text-uppercase fs-1 fw-bold titleColor">
+        <p className="text-center text-uppercase fs-1 fw-bold titleColorBlue">
             {children}
         </p>
     </div>
   );
 }
 
-export default Title;
+export default TitleBlue;

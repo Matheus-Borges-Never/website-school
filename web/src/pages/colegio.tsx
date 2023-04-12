@@ -1,15 +1,15 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Title from '../components/title';
+import TitleBlue from '../components/titleBlue';
 import TresImagens from '../components/colunaTresImagens';
 
 function Colegio() {
   return (
     <React.StrictMode>
-        <Title>
+        <TitleBlue>
             TRANSFORMANDO VIDAS PELA EDUCAÇÃO  <br />
             DA BASE AO RESULTADO!
-        </Title>
+        </TitleBlue>
         <br />
         <div className="container-lg text-center">
             <div className="row col-12">
