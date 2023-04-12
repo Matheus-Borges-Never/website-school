@@ -16,37 +16,39 @@ function Banner() {
           <div className="row row-cols-1 row-cols-md-3 g-4">
             <div className="col">
               <div className="imgMission"></div>
-              <div className="card">
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a longer card with supporting text below as a natural 
-                    lead-in to additional content. This content is a little bit longer.
-                  </p>
+              <div className="rectanglePillars">
+                <div className="titlePillars">
+                  Missão
+                </div>
+                <div className="textPillars">
+                  Oferecer serviço educacional de qualidade por meio da inovação e 
+                  infraestrutura, movidos pela credibilidade e paixão por revolucionar o 
+                  ensino a fim de construir um ser humano integrado.
                 </div>
               </div>
             </div>
             <div className="col">
-              <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a longer card with supporting text below as a natural lead-in 
-                    to additional content. This content is a little bit longer.
-                  </p>
+              <div className="imgValue"></div>
+              <div className="rectanglePillars">
+                <div className="titlePillars">
+                  Visão
+                </div>
+                <div className="textPillars">
+                  Ser reconhecida pela excelência em qualidade de ensino, 
+                  inovação e sustentabilidade em Franca e seu entorno.
                 </div>
               </div>
             </div>
             <div className="col">
-              <div className="card">
-                <img src="..." className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">Card title</h5>
-                  <p className="card-text">
-                    This is a longer card with supporting text below as a natural lead-in 
-                    to additional content.
-                  </p>
+              <div className="imgVision"></div>
+              <div className="rectanglePillars">
+                <div className="titlePillars">
+                  Missão
+                </div>
+                <div className="textPillars">
+                  Oferecer serviço educacional de qualidade por meio da inovação e 
+                  infraestrutura, movidos pela credibilidade e paixão por revolucionar o 
+                  ensino a fim de construir um ser humano integrado.
                 </div>
               </div>
             </div>
