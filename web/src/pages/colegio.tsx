@@ -41,7 +41,6 @@ function Colegio() {
                     </div>
                 </div>
             </div>
-
         </div>
     </React.StrictMode>
   );
