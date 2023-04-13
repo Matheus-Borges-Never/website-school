@@ -56,6 +56,7 @@ function Pilares() {
             </div>
           </div>
         </div>
+        <br /><br />
       </Banner> 
     </React.StrictMode>
   );

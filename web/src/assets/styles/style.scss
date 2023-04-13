@@ -218,6 +218,70 @@ nav ul {
     background: url(../img/pilarValores.png);
 }
 
+// Diferenciais
+
+.bannerClaro {
+    background-color: #F8F8F8;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.flag {
+    width: 1130px;
+    margin-left: 20vw;
+    background: #003A60;
+    border-radius: 28px 28px;
+}
+
+.diferencialCard {
+    border-color: #006295;
+    border-radius: 30px;
+    margin-right: 10px;
+    height: 327px;
+}
+
+// .diferencialBilingue {
+//     width: 50px;
+//     height: 50px;
+//     background: url(../img/translate.svg);
+//     margin-left: 45%;
+// }
+
+// .diferencialSocioemocional {
+//     width: 50px;
+//     height: 50px;
+//     background: url(../img/psychology.svg);
+//     margin-left: 45%;
+// }
+
+// .diferencialGamificada {
+//     width: 50px;
+//     height: 50px;
+//     background: url(../img/translate.svg);
+//     margin-left: 45%;
+// }
+
+.diferencialTitle {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #003A60;
+}
+
+.diferencialText {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #666363;
+}
+
+.buttonAlign {
+    margin-left: 7%;
+}
+
+
 // Mobile
 
 @media (min-width: 992px) {
