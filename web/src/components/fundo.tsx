@@ -13,7 +13,7 @@ function Fundo() {
             focusable="false"
           >
             <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="45%" y="10%" fill="#fff" dy=".3em">
+            <text x="25%" y="10%" fill="#fff" dy=".3em">
               Banner do Colegio 1902px x 700px
             </text>
           </svg>

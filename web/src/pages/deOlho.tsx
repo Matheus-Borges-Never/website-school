@@ -14,7 +14,7 @@ function FiqueOlho() {
 
         <div className="container-lg text-center">
           <div className="row">
-            <div className="col-4">
+            <div className="col-4 alignColegio">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho1"></div>
@@ -23,7 +23,7 @@ function FiqueOlho() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 alignColegio">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho2"></div>
@@ -32,7 +32,7 @@ function FiqueOlho() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 alignColegio">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho3"></div>
@@ -44,7 +44,7 @@ function FiqueOlho() {
           </div>
           <br />
           <div className="row">
-            <div className="col-4">
+            <div className="col-4 alignColegio ">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho4"></div>
@@ -53,7 +53,7 @@ function FiqueOlho() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 alignColegio">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho5"></div>
@@ -62,7 +62,7 @@ function FiqueOlho() {
                 </div>
               </div>
             </div>
-            <div className="col-4">
+            <div className="col-4 alignColegio">
               <div className="card cardDeOlho">
                 <div className="card-body">
                   <div className="imgDeOlho6"></div>

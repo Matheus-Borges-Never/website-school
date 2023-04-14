@@ -17,7 +17,7 @@ function Slide() {
           >
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#777"></rect>
-            <text x="45%" y="50%" fill="#555" dy=".3em">Primeiro Slide 800px x 809px</text>
+            <text x="25%" y="50%" fill="#555" dy=".3em">Primeiro Slide 800px x 809px</text>
           </svg>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
@@ -32,7 +32,7 @@ function Slide() {
           >
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#666"></rect>
-            <text x="45%" y="50%" fill="#444" dy=".3em">Segundo Slide 800px x 809px</text>
+            <text x="25%" y="50%" fill="#444" dy=".3em">Segundo Slide 800px x 809px</text>
           </svg>
         </div>
         <div className="carousel-item active">
@@ -47,7 +47,7 @@ function Slide() {
           >
             <title>Placeholder</title>
             <rect width="100%" height="100%" fill="#555"></rect>
-            <text x="45%" y="50%" fill="#333" dy=".3em">Terceiro Slide 800px x 809px</text>
+            <text x="25%" y="50%" fill="#333" dy=".3em">Terceiro Slide 800px x 809px</text>
           </svg>
         </div>
       </div>

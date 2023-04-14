@@ -4,6 +4,7 @@
     max-width: 100vw;
     box-sizing: border-box;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 // Navbar
@@ -23,15 +24,14 @@ nav ul {
 
 // Home
 
-.cardValues {
-    max-width: 285px;
-    margin-left: 17vw;
-    margin-right: 10vw;
-    text-align: center;
-    background-color: #1B6E99;
+.cardValue {
     color: #fff;
-    border-radius: 32px;
-    border-color: #fff;
+    background: #1B6E99;
+    text-align: center;
+}
+
+.card-title {
+    overflow: hidden;
 }
 
 .cardValues:hover {
@@ -42,8 +42,8 @@ nav ul {
     border-radius: 100%;
     height: 90px;
     width: 90px;
-    margin-left: 33%;
-    margin-top: -47px;
+    margin-left: 40%;
+    margin-top: 8px;
 }
 
 // Colegio
@@ -181,6 +181,7 @@ nav ul {
     line-height: 24px;
     text-align: center;
     color: #FFFFFF;
+    overflow-y: hidden;
 }
 
 .titlePillars {
@@ -228,9 +229,10 @@ nav ul {
 
 .diferencialCard {
     border-color: #006295;
+    max-width: 462px;
     border-radius: 30px;
-    margin-right: 10px;
-    height: 327px;
+    height: 335px;
+    margin-left: 92px;
 }
 
 // .diferencialBilingue {
@@ -260,6 +262,7 @@ nav ul {
     line-height: 38px;
     text-align: center;
     color: #003A60;
+    overflow-y: hidden;
 }
 
 .diferencialText {
@@ -268,6 +271,7 @@ nav ul {
     line-height: 29px;
     text-align: center;
     color: #666363;
+    overflow-y: hidden;
 }
 
 .buttonAlign {
@@ -278,7 +282,7 @@ nav ul {
 
 .cardDeOlho {
     width: 385px;
-    height: 405px;
+    height: 416px;
     background: #095D95;
     border-radius: 20px;
 }
@@ -357,6 +361,7 @@ nav ul {
     line-height: 38px;
     text-align: center;
     color: #FFFFFF;
+    overflow-y: hidden;
 }
 
 .dateDeOlho {
@@ -365,6 +370,7 @@ nav ul {
     line-height: 29px;
     text-align: center;
     color: #FFFFFF;
+    overflow-y: hidden;
 }
 
 // Estrutura
@@ -372,6 +378,7 @@ nav ul {
 .estrutura {
     width: 1902px;
     height: 700px;
+    overflow-y: hidden;
 }
 
 .fundoEstrutura {
@@ -404,6 +411,7 @@ nav ul {
     font-size: 20px;
     line-height: 24px;
     color: #003A60;
+    overflow-y: hidden;
 }
 
 .footerText ul li a {
@@ -417,13 +425,68 @@ nav ul {
 // Mobile
 
 @media (min-width: 992px) {
-    .cardValues {
-        margin-top: -11vh !important;
-    }
 }
 
 @media (max-width: 992px) {
+    .cardValues {
+        margin: 25vh !important;
+    }
+
     .navAlign {
         margin-left: 1vw !important;
+    }
+
+    .ellipse1 {
+        display: none;
+    }    
+    
+    .ellipse2 {
+        width: 315px;
+        height: 300px;
+        margin-left: 29px;
+        margin-bottom: 18px;
+        border-radius: 80%;
+        background: url(https://github.com/Matheus-Borges-Never/website-school/blob/main/web/src/assets/img/2.jpg?raw=true);
+    
+        &:hover {
+            border: 2px solid #006295;
+            opacity: 0.5;
+        }
+    }
+    
+    .ellipse3 {
+        display: none;
+    }
+
+    .diferencialCard {
+        margin-left: 1px;
+        margin-bottom: 10px;
+    }
+
+    .flag {
+        max-width: 392px;
+        margin-left: 2vw;
+        background: #003A60;
+        border-radius: 28px 28px;
+    }
+
+    .alignNews {
+        width: 100%;
+    }
+
+    .alignColegio {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fundoEstrutura {
+        max-width: 1085px;
+        padding: 1px;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        text-align: center;
+        background-color: #1B6E99;
+        position: absolute;
+        margin-top: -46vh;
     }
 }

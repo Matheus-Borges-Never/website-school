@@ -8,8 +8,8 @@ function PorDentro() {
         <br />
         <br />
         <div className="container-lg text-center">
-          <div className="row col-12">
-            <div className="col-6">
+          <div className="row">
+            <div className="col-6 alignNews">
                 <svg width="448" height="379" viewBox="0 0 448 379" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="448" height="379" rx="20" fill="url(#pattern0)"/>
                     <defs>
@@ -20,7 +20,7 @@ function PorDentro() {
                     </defs>
                 </svg>
             </div>
-            <div className="col-6 justify-content-start">
+            <div className="col-6 alignNews justify-content-start">
               <div className="schoolAbout">
                 Fique Por Dentro Das Nossas Atividades Pedagógicas - LOBATO NEWS
               </div>
