@@ -3,6 +3,7 @@
     padding: 0;
     max-width: 100vw;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 // Navbar
@@ -12,11 +13,7 @@
 }
 
 .navAlign {
-    margin-left: 10vw;
-}
-
-.navText {
-    margin-left: 15vw;
+    margin-left: 24vw;
 }
 
 nav ul {
@@ -422,5 +419,11 @@ nav ul {
 @media (min-width: 992px) {
     .cardValues {
         margin-top: -11vh !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .navAlign {
+        margin-left: 1vw !important;
     }
 }
