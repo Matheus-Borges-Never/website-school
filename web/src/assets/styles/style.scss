@@ -377,7 +377,7 @@ nav ul {
     height: 700px;
 }
 
-.fundoEstrutura {    
+.fundoEstrutura {
     max-width: 1085px;
     padding: 9px;
     margin-left: 28vw;
@@ -389,17 +389,33 @@ nav ul {
 }
 
 .fundoTexto {
-width: 1074px;
-height: 100px;
-left: 301px;
-top: 386px;
-background-color: #095D95;
+    width: 1074px;
+    height: 100px;
+    left: 301px;
+    top: 386px;
+    background-color: #095D95;
 }
 
+// Footer
 
-// Rodape
+.footerAlign {
+    margin-left: 10vw
+}
 
+.footerText h5 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #003A60;
+}
 
+.footerText ul li a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
 
 // Mobile
 

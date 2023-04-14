@@ -8,7 +8,7 @@ import Diferenciais from './pages/diferenciais';
 import PorDentro from './pages/porDentro';
 import FiqueOlho from './pages/deOlho';
 import Estrutura from './pages/estrutura';
-import Rodape from './pages/rodape';
+import Footer from './pages/footer';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -53,9 +53,7 @@ root.render(
     <br /><br />
     <br /><br />
     <section>
-      <Rodape />      
+      <Footer />      
     </section>
-    <br /><br />
-    <br /><br />
   </React.StrictMode>
 );
